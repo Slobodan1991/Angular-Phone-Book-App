@@ -1,0 +1,22 @@
+.phonebook-contact-content {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 25px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../assets/trash.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.delete-btn:hover {
+    background-image: url(../../assets/trash1.png);
+}

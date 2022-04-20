@@ -1,0 +1,8 @@
+<h1>PhoneBook</h1>
+
+ <p>New contact</p>
+ 
+<input type="text"  id="name" placeholder="Name" #name>
+<input type="text"  id="number" placeholder="Number" #number>
+<span id="add-btn" (click) = "this.contactsService.addContact(name.value, number.value)">Add</span>
+

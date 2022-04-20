@@ -1,0 +1,11 @@
+h2 {
+    text-align: center;
+}
+
+#all-contacts-container {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px 0;
+    border-top: solid 2px #537895;
+}
+
